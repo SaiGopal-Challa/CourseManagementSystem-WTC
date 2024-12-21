@@ -3,6 +3,11 @@ Repo to create first version of WTC's CourseManagementSystem (CMS).
 
 ## Project Description
 
+**Description** : 
+    The Course Management System (CMS) is a web and mobile application that allows users to access and manage courses. 
+    The application will have a dashboard page that displays the user's progress in each course, a marketplace page where users can view and register for courses, and a course page that displays the course content and problems. 
+    The application will also have a user authentication system that allows users to log in and access their account.
+
 **Stack** : 
 
 - FE - React + React Native (mobile)
@@ -19,28 +24,42 @@ Repo to create first version of WTC's CourseManagementSystem (CMS).
 
 - Micro service architecture ( FE two projects & BE one project) 
 
-**Application Description**
+## Application Description
 
-1. Page 1 - ( Visible to All ) Pre Login
+1. Welcome Page - 
+	- Logo
+	- Sign Up Button
+	- Login Button
+	- Market Place Button
+	- If logged in, Sign Out Button
 
-2. Page 2 ( not an actual page, just change in component and state )- Same as Page 1, just logged in
+2. Dashboard Page - 
+	- User's progress in each course
+	- Current plan
+	- Upcoming courses
+	- Completed courses
 
-3. Page 3 - Dashboard Page ( might be actual landing page, will decide later )
+4. Market Place Page - 
+	- List of courses (currently, only 3 courses are available)
+	- Course details (name, description, price, rating)
+	- Register button
 
-	- Dashboard Page
+5. Course Page - 
+	- Course content - List of chapters
+	- Flag for each chapter (completed, Important)
+	- Problems List Per Chapter
+	- Star Question - Save the question for later review
+	- Flag for each problem 
+		- Not Yet Attempted - Default
+		- Attempted - On Visiting the question
+		- completed - Only selectable after attempting the question 
 
-	- three boxes for 3 courses
+## Project Architecture
 
-	- each box - 4 metrics ( 1 - % of course content finished ; 2, 3, 4 - count of ( Easy, Medium, Hard) questions solved / total no.of questions).
+The architecture for the Course Management System (CMS) will follow a microservices approach, with separate services for the frontend (React and React Native) and backend (.NET Core). The backend will interact with both PostgreSQL and MongoDB databases. Docker and Kubernetes will be used for containerization and orchestration.
 
-4. Page 4 - Market Place ( page might be dropped , might have redundancy with dashboard ) - Current plan - Only 3 static Courses , 3 rectangular boxes, ( not present if already registered ) ,
 
-5. Page 5 - Course Page
 
-	- Course name as heading,
 
-	- chapter n ( if clicked , dropdown of content rows, ( like bullet points) . all will be either youtube links or pdfs) ( after each point, can mark completed, or flag it)
 
-	- Problems of chapter n ( if clicked, dropdown of questions ( as bullet points), all redirect to leetcode, after each question can be marked ( attempted, solved, not yet touched ) [ all Qs are in "Not Yet Tried" status, once the link is clicked, it changes to "Attempted", only when the status is Attempted can the user click on status and mark it "solved". If status is in "Not Yet Tried", user can not get the dropdown when clicked, will get pop up saying, attempt the question first.
 
-## Project Setup
