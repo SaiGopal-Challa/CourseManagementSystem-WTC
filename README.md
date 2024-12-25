@@ -28,8 +28,7 @@ Repo to create first version of WTC's CourseManagementSystem (CMS).
 
 1. Welcome Page - 
 	- Logo
-	- Sign Up Button
-	- Login Button
+	- Sign Up / Sign In Button
 	- Market Place Button
 	- If logged in, Sign Out Button
 
