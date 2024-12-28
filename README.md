@@ -57,8 +57,14 @@ Repo to create first version of WTC's CourseManagementSystem (CMS).
 
 The architecture for the Course Management System (CMS) will follow a microservices approach, with separate services for the frontend (React and React Native) and backend (.NET Core). The backend will interact with both PostgreSQL and MongoDB databases. Docker and Kubernetes will be used for containerization and orchestration.
 
+## Project Repositories
 
+### Backend Repository:
 
-
+<div align="center">
+  <a href="https://github.com/SaiGopal-Challa/WTC_CMS_BE">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SaiGopal-Challa&repo=WTC_CMS_BE&theme=radical" alt="CourseManagementSystem-WTC Backend Repo" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);"/>
+  </a>
+</div>
 
 
