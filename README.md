@@ -12,7 +12,7 @@ Repo to create first version of WTC's CourseManagementSystem (CMS).
 
 - FE - React + React Native (mobile)
 
-- BE - .Net Core 9.0
+- BE - .Net Core 8.0
 
 - DB - Polyglot persistence - PostgreSQL + MongoDB
 
